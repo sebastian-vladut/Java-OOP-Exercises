@@ -9,14 +9,13 @@ The goal of this collection is to serve as a practical portfolio of my ability t
 
 ## 🚀 Exercises Overview
 
-Here is a summary of the exercises included in this repository and the primary OOP concept each one demonstrates.
+Here is a summary of the exercises included in this repository.
 
-| Exercise |
-| **1. Bank Account System** |
-| **2. Arithmetic Operations** |
-| **3. Employee Salary Calculation** |
-| **4. Shape Perimeter Calculation** |
-| **5. Currency Conversion** |
-| **6. Ticket Pricing** |
-| **7. Animal Sound Simulation** |
-| **8. Simple Game Character System** |
+* **Exercise 1: Bank Account System**
+* **Exercise 2: Arithmetic Operations**
+* **Exercise 3: Employee Salary Calculation**
+* **Exercise 4: Shape Perimeter Calculation**
+* **Exercise 5: Currency Conversion**
+* **Exercise 6: Ticket Pricing**
+* **Exercise 7: Animal Sound Simulation**
+* **Exercise 8: Simple Game Character System**
