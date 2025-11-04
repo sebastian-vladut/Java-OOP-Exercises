@@ -46,5 +46,7 @@ public class Main {
             double result = calculator.performOperation(num1, num2);
             System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
         }
+
+        input.close();
     }
 }

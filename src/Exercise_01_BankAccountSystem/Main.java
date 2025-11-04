@@ -42,6 +42,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Good Bye!");
+                    input.close();
                     return; // Exit the program
                 default:
                     System.out.println("Invalid option. Please try again.");
@@ -119,9 +120,9 @@ public class Main {
         BankAccount logInAccount = null;
 
         // Loop through all created accounts to find a match
-        for (int i = 0; i < bankAccounts.size(); i++){
-            if (bankAccounts.get(i).getHolderName().equals(holderName) && bankAccounts.get(i).checkPassword(password)){
-                logInAccount = bankAccounts.get(i);
+        for (BankAccount bankAccount : bankAccounts) {
+            if (bankAccount.getHolderName().equals(holderName) && bankAccount.checkPassword(password)) {
+                logInAccount = bankAccount;
                 break;
             }
         }
